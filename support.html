@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>الدعم — شفتي | Support — My Shift</title>
+<meta name="description" content="صفحة الدعم الفني لتطبيق شفتي. Support page for My Shift app.">
+<style>
+  :root{
+    --bg:#f5f4ef; --card:#fff; --text:#1b1b1d; --muted:#6b6b70;
+    --line:#e3e1da; --accent:#28a745;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#0f0f11; --card:#1a1a1c; --text:#f2f2f4; --muted:#9a9aa0;
+           --line:#2c2c30; --accent:#34c759; }
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; padding:24px 16px 64px;
+    background:var(--bg); color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Tahoma,Arial,sans-serif;
+    line-height:1.85; -webkit-text-size-adjust:100%;
+  }
+  .wrap{max-width:760px;margin:0 auto}
+  header{text-align:center;margin-bottom:32px}
+  .logo{
+    width:76px;height:76px;border-radius:18px;margin:0 auto 16px;
+    display:flex;align-items:center;justify-content:center;
+    background:var(--card);border:1px solid var(--line);font-size:38px;
+  }
+  h1{font-size:1.6rem;margin:0 0 6px;letter-spacing:-.02em}
+  .sub{color:var(--muted);font-size:.92rem;margin:0}
+  .card{
+    background:var(--card);border:1px solid var(--line);
+    border-radius:16px;padding:26px 24px;margin-bottom:20px;
+  }
+  h2{font-size:1.12rem;margin:0 0 14px;display:flex;align-items:center;gap:9px}
+  h2::before{content:"";width:4px;height:19px;border-radius:2px;background:var(--accent);flex:none}
+  h3{font-size:.99rem;margin:20px 0 6px}
+  h3:first-of-type{margin-top:0}
+  p{margin:0 0 13px}
+  ul{margin:0 0 13px;padding-inline-start:22px}
+  li{margin-bottom:8px}
+  a{color:var(--accent)}
+  .mail{
+    display:inline-block;background:var(--accent);color:#fff;text-decoration:none;
+    padding:11px 26px;border-radius:100px;font-weight:600;margin-top:6px;
+  }
+  hr{border:0;border-top:1px solid var(--line);margin:40px 0}
+  footer{text-align:center;color:var(--muted);font-size:.85rem;margin-top:34px}
+  section[dir="ltr"]{text-align:left}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="logo">🕐</div>
+    <h1>الدعم الفني</h1>
+    <p class="sub">تطبيق شفتي</p>
+  </header>
+
+  <div class="card" style="text-align:center">
+    <p>لأي سؤال أو مشكلة أو اقتراح، راسلني مباشرة:</p>
+    <a class="mail" href="mailto:ahmedlaithit@gmail.com">ahmedlaithit@gmail.com</a>
+    <p class="sub" style="margin-top:14px">عادةً أرد خلال ٤٨ ساعة</p>
+  </div>
+
+  <div class="card">
+    <h2>أسئلة شائعة</h2>
+
+    <h3>كيف أضيف دوامًا؟</h3>
+    <p>اضغط زر (+) في الأعلى، اكتب اسم الدوام ووقت البداية والنهاية، ثم فعّل الأيام التي تعمل فيها. يمكنك اختيار عدة أيام دفعة واحدة.</p>
+
+    <h3>لدي يوم بوقت مختلف عن باقي الأيام</h3>
+    <p>عند تفعيل اليوم، اضغط «وقت مختلف لهذا اليوم» وسيظهر لك اختيار وقت خاص به دون التأثير على بقية الأيام.</p>
+
+    <h3>لماذا يمنعني من الحفظ؟</h3>
+    <p>التطبيق يمنع تعارض الدوامات. إن ظهر لك تنبيه برتقالي، فهناك دوام آخر يتقاطع مع التوقيت الذي أدخلته — بما في ذلك الدوامات الليلية الممتدة لليوم التالي. عدّل الوقت أو الاسم ليختفي التنبيه.</p>
+
+    <h3>كيف أضيف الودجت؟</h3>
+    <p>اضغط مطولًا على الشاشة الرئيسية ← زر (+) ← ابحث عن «شفتي» ← اختر الحجم. ولشاشة القفل: اضغط مطولًا على شاشة القفل ← Customize ← منطقة الودجت.</p>
+
+    <h3>دواماتي لا تتزامن بين أجهزتي</h3>
+    <p>تأكد أن الجهازين مسجّلان بنفس حساب iCloud، وأن iCloud Drive مفعّل، وأن هناك اتصال إنترنت. المزامنة قد تستغرق عدة ثوانٍ.</p>
+
+    <h3>كيف أغيّر لغة التطبيق؟</h3>
+    <p>من زر الإعدادات (⚙︎) في الأعلى، اختر لغتك من القائمة. التغيير فوري.</p>
+
+    <h3>هل بياناتي محفوظة عندكم؟</h3>
+    <p>لا. لا نجمع أي بيانات ولا نملك خوادم. راجع <a href="./">سياسة الخصوصية</a>.</p>
+  </div>
+
+  <hr>
+
+  <!-- ===================== English ===================== -->
+  <section dir="ltr" lang="en">
+    <header style="margin-bottom:26px">
+      <h1>Support</h1>
+      <p class="sub">My Shift</p>
+    </header>
+
+    <div class="card" style="text-align:center">
+      <p>For any question, issue, or suggestion, email me directly:</p>
+      <a class="mail" href="mailto:ahmedlaithit@gmail.com">ahmedlaithit@gmail.com</a>
+      <p class="sub" style="margin-top:14px">I usually reply within 48 hours</p>
+    </div>
+
+    <div class="card">
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>How do I add a shift?</h3>
+      <p>Tap (+) at the top, enter a name and start/end times, then switch on the days you work. You can select several days at once.</p>
+
+      <h3>One of my days has different hours</h3>
+      <p>After switching a day on, tap "Different time for this day" to set custom hours for that day only, without affecting the others.</p>
+
+      <h3>Why won't it let me save?</h3>
+      <p>The app blocks overlapping shifts. If you see an orange warning, another shift conflicts with the times you entered — including night shifts that run into the next day. Adjust the time or name and the warning clears.</p>
+
+      <h3>How do I add the widget?</h3>
+      <p>Long-press the Home Screen → (+) → search for "My Shift" → pick a size. For the Lock Screen: long-press the Lock Screen → Customize → tap the widget area.</p>
+
+      <h3>My shifts aren't syncing between devices</h3>
+      <p>Make sure both devices use the same iCloud account, that iCloud Drive is enabled, and that you have an internet connection. Syncing can take a few seconds.</p>
+
+      <h3>How do I change the app language?</h3>
+      <p>Tap the settings button (⚙︎) at the top and pick your language. The change applies instantly.</p>
+
+      <h3>Do you store my data?</h3>
+      <p>No. We collect no data and operate no servers. See the <a href="./">Privacy Policy</a>.</p>
+    </div>
+  </section>
+
+  <footer>شفتي · My Shift</footer>
+</div>
+</body>
+</html>
